@@ -1,4 +1,16 @@
 1. What is scope??
 When a variable is assigned, it has a lifecycle and information that says where it can be accessed within the codebase.
 If a variable has global scope, it can be accessed and altered anywhere within the codebase. Alternatively, if it has local
-scope, it can only be accessed within the function or code block that it was declared.Global variables are avoided because they can cause unintended side effects in your code. Behavior of the code can be unpredictable.
+scope, it can only be accessed within the function or code block that it was declared.
+
+2. Global variables
+Global variables are avoided because they can cause unintended side effects in your code. Behavior of the code can be unpredictable.
+
+3. use strict
+The strict mode is essentially a safeguard against global variables. In strict mode, it will throw an error if you declare
+a variable without using let, const, or var. So if you have a global variable and try to use it within a different more
+specific scope, it will throw an error.
+
+4.what are side effects and what is a pure function?
+side effects are the result of a function pulling a value from outside of its local scope. 
+A pure function is determinate and has no side effects. 
