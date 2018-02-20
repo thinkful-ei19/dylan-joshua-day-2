@@ -1,0 +1,4 @@
+1. What is scope??
+When a variable is assigned, it has a lifecycle and information that says where it can be accessed within the codebase.
+If a variable has global scope, it can be accessed and altered anywhere within the codebase. Alternatively, if it has local
+scope, it can only be accessed within the function or code block that it was declared.
